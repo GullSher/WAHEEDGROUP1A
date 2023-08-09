@@ -1,0 +1,80 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
+
+ h1 {
+     text-align: center;
+     color: #4181ee;
+ }
+
+ .wrapper {
+     display: flex;
+     justify-content: center;
+     /* flex-wrap: wrap; */
+     /* background-color: #FFF; */
+ }
+
+ .card2 {
+     /* max-width: 300px; */
+     max-width: 100%;
+     min-height: 250px;
+     background: #08f5d2;
+     padding: 30px;
+     border-radius: 3px;
+     box-sizing: border-box;
+     color: #FFF;
+     margin: 20px;
+     box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+ }
+
+ .card2:nth-child(2) {
+     background: #ee5656;
+ }
+
+ .card2:last-child {
+     background: #ffd904;
+ }
+
+ .card-title {
+     margin-top: 0;
+     font-size: 16px;
+     font-weight: 600;
+     letter-spacing: 1.2px;
+ }
+
+ .card-content {
+     font-size: 14px;
+     letter-spacing: 0.5px;
+     line-height: 1.5;
+ }
+
+ .card-btn {
+     all: unset;
+     display: block;
+     margin-left: auto;
+     border: 2px solid #FFF;
+     padding: 10px 15px;
+     border-radius: 25px;
+     font-size: 10px;
+     font-weight: 600;
+     transition: all 0.5s;
+     cursor: pointer;
+     letter-spacing: 1.2px;
+ }
+
+ .card-btn:hover {
+     color: #02b875;
+     background: #FFF;
+ }
+
+ .card2:nth-child(2) .card-btn:hover {
+     color: #ff3f9f;
+     background: #FFF;
+ }
+
+ .card2:last-child .card-btn:hover {
+     color: #673ab7;
+     background: #FFF;
+ }

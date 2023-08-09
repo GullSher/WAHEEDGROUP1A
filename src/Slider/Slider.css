@@ -1,0 +1,118 @@
+:root {
+    --white-100: hsl(206, 5%, 100%);
+    --white-200: hsl(206, 5%, 90%);
+    --white-300: hsl(206, 5%, 80%);
+    --white-400: hsl(206, 5%, 65%);
+
+    --black-100: hsl(210, 20%, 10%);
+    --black-200: hsl(210, 20%, 8%);
+    --black-300: hsl(210, 20%, 5%);
+    --black-400: hsl(210, 20%, 3%);
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-size: 100%;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+    height: -webkit-fill-available;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--black-300);
+    background-color: var(--white-100);
+}
+
+main {
+    overflow: hidden;
+}
+
+a,
+button {
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+// Elements
+.section {
+    margin-inline: auto;
+    padding-block: 5rem;
+}
+
+.container {
+    max-width: 75rem;
+    height: auto;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+}
+
+.slider {
+    &-column {
+        position: relative;
+    }
+
+    &-image {
+        margin-inline: 0.5rem;
+    }
+
+    &-prev,
+    &-next {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.15rem;
+        font-weight: 700;
+        cursor: pointer;
+        user-select: none;
+        padding: 1rem;
+        width: 1rem;
+        height: 1rem;
+        opacity: 0.75;
+        border-radius: 50%;
+        color: var(--white-100);
+        background: var(--black-400);
+    }
+
+    &-prev {
+        top: 40%;
+        left: 2rem;
+        right: auto;
+    }
+
+    &-next {
+        top: 40%;
+        left: auto;
+        right: 2rem;
+    }
+}
