@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/waheedgroup1a/static/css/main.6c642e22.css",
+    "main.js": "/waheedgroup1a/static/js/main.f2d52c20.js",
+    "static/js/787.3ecf66ac.chunk.js": "/waheedgroup1a/static/js/787.3ecf66ac.chunk.js",
+    "index.html": "/waheedgroup1a/index.html",
+    "main.6c642e22.css.map": "/waheedgroup1a/static/css/main.6c642e22.css.map",
+    "main.f2d52c20.js.map": "/waheedgroup1a/static/js/main.f2d52c20.js.map",
+    "787.3ecf66ac.chunk.js.map": "/waheedgroup1a/static/js/787.3ecf66ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c642e22.css",
+    "static/js/main.f2d52c20.js"
+  ]
+}
